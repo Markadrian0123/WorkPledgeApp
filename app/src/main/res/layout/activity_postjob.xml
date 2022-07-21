@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/fillup"
+    android:layout_height="match_parent"
+    tools:context=".Postjob">
+
+    <TextView
+        android:layout_gravity="center"
+        android:text="POST A JOB HERE"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"/>
+
+
+
+    <EditText
+        android:id="@+id/mName"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Job Name"
+        tools:layout_editor_absoluteX="155dp"
+        tools:layout_editor_absoluteY="101dp" />
+
+
+    <EditText
+        android:id="@+id/mdesc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Description"
+        tools:layout_editor_absoluteX="162dp"
+        tools:layout_editor_absoluteY="198dp"/>
+    <EditText
+        android:id="@+id/mAge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Years of Experience need"
+        tools:layout_editor_absoluteX="162dp"
+        tools:layout_editor_absoluteY="198dp"/>
+
+        <Button
+            android:layout_marginTop="20dp"
+            android:id="@+id/btnsave"
+            android:drawableLeft="@drawable/ic_baseline_plus_one_24"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Post A Job"
+            android:backgroundTint="@color/black"
+            />
+
+
+</LinearLayout>

@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/availablejob2"
+    android:padding="16dp"
+    tools:context=".Alljob">
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Available Jobs"
+        android:textSize="@android:dimen/app_icon_size"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:id="@+id/textName"
+        style="@style/TextAppearance.AppCompat.Title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text"
+        android:layout_marginLeft="22dp"
+        android:layout_marginTop="34dp"
+        android:text="Programmer"
+        android:textSize="30dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="168dp"
+        android:layout_height="117dp"
+        android:layout_alignStart="@+id/textName"
+        android:layout_alignTop="@+id/textName"
+        android:layout_alignEnd="@+id/textName"
+        android:layout_alignBottom="@+id/textName"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="-110dp"
+        android:text="We are Hiring New Programmers"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="148dp"
+        android:layout_height="104dp"
+        android:layout_alignBottom="@+id/textView2"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="42dp"
+        android:layout_marginEnd="13dp"
+        android:layout_marginBottom="83dp"
+        android:layout_toEndOf="@+id/textView2"
+        android:background="@drawable/ic_baseline_work"
+        android:backgroundTint="@color/black"
+        android:text="Click Here for more info" />
+
+    <TextView
+        android:id="@+id/textName1"
+        style="@style/TextAppearance.AppCompat.Title"
+        android:layout_width="175dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button1"
+        android:layout_marginLeft="22dp"
+        android:layout_marginTop="38dp"
+        android:text="Mang Inasal Cook"
+        android:textSize="30dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="168dp"
+        android:layout_height="117dp"
+        android:layout_alignStart="@+id/textName1"
+        android:layout_alignTop="@+id/textName1"
+        android:layout_alignEnd="@+id/textName1"
+        android:layout_alignBottom="@+id/textName1"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="70dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="-110dp"
+        android:text="We are Hiring New Cook"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="148dp"
+        android:layout_height="104dp"
+        android:layout_alignBottom="@+id/textView3"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="42dp"
+        android:layout_marginEnd="13dp"
+        android:layout_marginBottom="83dp"
+        android:layout_toEndOf="@+id/textView2"
+        android:background="@drawable/ic_baseline_work"
+        android:backgroundTint="@color/black"
+        android:text="Click Here for more info" />
+
+    <TextView
+        android:id="@+id/textName3"
+        style="@style/TextAppearance.AppCompat.Title"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_below="@+id/button2"
+        android:layout_marginLeft="22dp"
+        android:layout_marginTop="0dp"
+        android:text="Web Developer"
+        android:textSize="30dp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="168dp"
+        android:layout_height="117dp"
+        android:layout_alignStart="@+id/textName3"
+        android:layout_alignTop="@+id/textName3"
+        android:layout_alignEnd="@+id/textName3"
+        android:layout_alignBottom="@+id/textName3"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="70dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="-153dp"
+        android:text="We are Hiring New Developers"
+        android:textSize="20dp"
+        />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="148dp"
+        android:layout_height="104dp"
+        android:layout_alignBottom="@+id/textView4"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="42dp"
+        android:layout_marginEnd="13dp"
+        android:layout_marginBottom="83dp"
+        android:layout_toEndOf="@+id/textView2"
+        android:background="@drawable/ic_baseline_work"
+        android:backgroundTint="@color/black"
+        android:text="Click Here for more info" />
+
+
+
+
+</RelativeLayout>

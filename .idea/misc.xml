@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Administrator/Music/WorkPledgeFinalProjectResult/ProjectsAndroidStudio/app/src/main/res/layout/activity_alljob.xml" value="0.15885416666666666" />
+        <entry key="..\:/Users/Administrator/Music/WorkPledgeFinalProjectResult/ProjectsAndroidStudio/app/src/main/res/layout/activity_availablejob1.xml" value="0.15885416666666666" />
+        <entry key="..\:/Users/Administrator/Music/WorkPledgeFinalProjectResult/ProjectsAndroidStudio/app/src/main/res/layout/activity_availablejob2.xml" value="0.15885416666666666" />
+        <entry key="..\:/Users/Administrator/Music/WorkPledgeFinalProjectResult/ProjectsAndroidStudio/app/src/main/res/layout/activity_homepage.xml" value="0.15885416666666666" />
+        <entry key="..\:/Users/Administrator/StudioprojectsandActivities/ProjectsAndroidStudio/app/src/main/res/layout/activity_2.xml" value="0.25" />
+        <entry key="..\:/Users/Administrator/StudioprojectsandActivities/ProjectsAndroidStudio/app/src/main/res/layout/activity_alljob.xml" value="0.25" />
+        <entry key="..\:/Users/Administrator/StudioprojectsandActivities/ProjectsAndroidStudio/app/src/main/res/layout/activity_availablejob1.xml" value="0.25" />
+        <entry key="..\:/Users/Administrator/StudioprojectsandActivities/ProjectsAndroidStudio/app/src/main/res/layout/activity_availablejob2.xml" value="0.25" />
+        <entry key="..\:/Users/Administrator/StudioprojectsandActivities/ProjectsAndroidStudio/app/src/main/res/layout/activity_availablejob3.xml" value="0.21" />
+        <entry key="..\:/Users/Administrator/StudioprojectsandActivities/ProjectsAndroidStudio/app/src/main/res/layout/activity_createjob.xml" value="0.22" />
+        <entry key="..\:/Users/Administrator/StudioprojectsandActivities/ProjectsAndroidStudio/app/src/main/res/layout/activity_fillup.xml" value="0.25" />
+        <entry key="..\:/Users/Administrator/StudioprojectsandActivities/ProjectsAndroidStudio/app/src/main/res/layout/activity_fillupoutput.xml" value="0.25" />
+        <entry key="..\:/Users/Administrator/StudioprojectsandActivities/ProjectsAndroidStudio/app/src/main/res/layout/activity_homepage.xml" value="0.26145833333333335" />
+        <entry key="..\:/Users/Administrator/StudioprojectsandActivities/ProjectsAndroidStudio/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/Administrator/StudioprojectsandActivities/ProjectsAndroidStudio/app/src/main/res/layout/activity_postjob.xml" value="0.22" />
+        <entry key="..\:/Users/Administrator/StudioprojectsandActivities/ProjectsAndroidStudio/app/src/main/res/layout/activity_register.xml" value="0.25" />
+        <entry key="..\:/Users/Administrator/StudioprojectsandActivities/ProjectsAndroidStudio/app/src/main/res/layout/activity_registername.xml" value="0.25" />
+        <entry key="..\:/Users/Administrator/StudioprojectsandActivities/ProjectsAndroidStudio/app/src/main/res/layout/list_row.xml" value="0.22" />
+        <entry key="..\:/Users/Administrator/StudioprojectsandActivities/ProjectsAndroidStudio/app/src/main/res/layout/toolbar.xml" value="0.19" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

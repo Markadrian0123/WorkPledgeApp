@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/availablejob2"
+    tools:context=".availablejob2">
+
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="152dp"
+        android:layout_height="58dp"
+        android:layout_above="@+id/imageView2"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="130dp"
+        android:layout_marginBottom="30dp"
+        android:gravity="center"
+        android:text="Chef"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="334dp"
+        android:layout_height="297dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="32dp"
+        android:layout_marginBottom="334dp"
+        app:srcCompat="@drawable/jobavailable3" />
+
+    <TextView
+        android:id="@+id/desc"
+        android:layout_width="399dp"
+        android:layout_height="129dp"
+        android:layout_below="@+id/text"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="319dp"
+        android:layout_marginEnd="5dp"
+        android:gravity="center"
+        android:text="DESCRIPTION\nThe cook prepares the basting sauce for the Barbecue/ Liempo/ Inasal. The cook grills the marinated meat. After grilling, the waiter helps the cook by plating the grilled Barbecue/ Grilled Liempo/ Chicken Inasal. The waiter serves the meal to the customer."
+        android:textStyle="bold"/>
+    <TextView
+        android:id="@+id/salary"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/desc"
+        android:text="     Salary: 15,000 Pesos Month \n     Location:Urdaneta City\n    Time Availabale: 9:00AM-1:00PM"
+        android:textStyle="bold"/>
+
+    <Button
+        android:id="@+id/homebtn"
+        android:layout_width="158dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/salary"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="45dp"
+        android:layout_marginEnd="217dp"
+        android:drawableLeft="@drawable/ic_baseline_home"
+        android:gravity="center"
+        android:text="Back to Home"
+        android:backgroundTint="@color/black"/>
+
+    <Button
+        android:id="@+id/name"
+        android:layout_width="158dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/salary"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="48dp"
+        android:layout_marginEnd="44dp"
+        android:drawableLeft="@drawable/ic_baseline_create"
+        android:gravity="center"
+        android:text="register Name"
+        android:backgroundTint="@color/black"/>
+
+</RelativeLayout>

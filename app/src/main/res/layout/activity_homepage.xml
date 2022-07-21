@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/hompage2"
+    tools:context=".Homepage">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/welcome"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginBottom="50dp"
+        android:gravity="center"
+        android:text="Welcome To Workpledge App!"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textSize="35dp"
+        />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_allJob"
+        android:layout_width="363dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/welcome"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="192dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
+        android:backgroundTint="@color/design_default_color_on_secondary"
+        android:drawableLeft="@drawable/ic_baseline_search_24"
+        android:text="See All Job Post" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_postJob"
+        android:layout_width="363dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btn_allJob"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
+        android:backgroundTint="@color/design_default_color_on_secondary"
+        android:drawableLeft="@drawable/ic_baseline_plus_one_24"
+        android:text="Post a Job" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="387dp"
+        android:layout_height="175dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="11dp"
+        android:layout_marginTop="143dp"
+        android:layout_marginEnd="13dp"
+        android:layout_marginBottom="412dp"
+        app:srcCompat="@drawable/profile1" />
+
+
+</RelativeLayout>
